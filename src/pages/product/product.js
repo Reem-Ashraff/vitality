@@ -11,6 +11,7 @@ import {
   Virus,
   Droplet
 } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const Product = () => {
 
@@ -29,6 +30,9 @@ const Product = () => {
 
     return (
         <>
+        <Helmet>
+            <title>Probiolact | Vitality</title>
+        </Helmet>
         <main className="product-main">
             <section className="hero-section"></section>
             <div className="hero-shadow"></div>

@@ -12,6 +12,7 @@ import {
   ChartNoAxesCombined,
   Users
 } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
 
@@ -29,6 +30,9 @@ const About = () => {
 
     return (
         <>
+        <Helmet>
+            <title>About | Vitality</title>
+        </Helmet>
         <main className="about-main">
             <section className="hero-section"></section>
             <div className="hero-shadow"></div>

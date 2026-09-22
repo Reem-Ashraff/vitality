@@ -8,6 +8,7 @@ import {
   ShieldCheck,
   CircleStar
 } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const Solutions = () => {
 
@@ -22,6 +23,9 @@ const Solutions = () => {
 
     return (
         <>
+        <Helmet>
+            <title>Solutions | Vitality</title>
+        </Helmet>
         <main className="solutions-main">
             <section className="hero-section"></section>
             <div className="hero-shadow"></div>

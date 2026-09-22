@@ -14,6 +14,7 @@ import {
   Sprout,
   Earth
 } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
 
@@ -31,6 +32,9 @@ const Home = () => {
 
     return (
         <>
+        <Helmet>
+            <title>Vitality | Animal Health & Nutrition</title>
+        </Helmet>
         <main className="home-main">
             <section className="hero-section"></section>
             <div className="hero-shadow"></div>

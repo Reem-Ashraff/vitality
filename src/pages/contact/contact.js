@@ -3,6 +3,7 @@ import "./contact.css";
 import { useTranslation } from "react-i18next";
 import contactEn from "../../locates/en/contact.json";
 import contactAr from "../../locates/ar/contact.json";
+import { Helmet } from "react-helmet-async";
 
 const Contact = () => {
 
@@ -11,6 +12,9 @@ const Contact = () => {
 
     return (
         <>
+        <Helmet>
+            <title>Contact | Vitality</title>
+        </Helmet>
         <main className="contact-main">
             <section className="hero-section"></section>
             <div className="hero-shadow"></div>

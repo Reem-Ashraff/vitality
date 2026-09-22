@@ -13,6 +13,7 @@ import {
   FlaskConicalOff,
   Leaf
 } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const Quality = () => {
 
@@ -30,6 +31,9 @@ const Quality = () => {
 
     return (
         <>
+        <Helmet>
+            <title>Quality | Vitality</title>
+        </Helmet>
         <main className="quality-main">
             <section className="hero-section"></section>
             <div className="hero-shadow"></div>
