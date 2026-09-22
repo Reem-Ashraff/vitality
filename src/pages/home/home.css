@@ -498,12 +498,20 @@ html[lang="en"] .why-section .why-item .item-icon {
         height: 12vmin;
     }
 
-    .cta-section .background {
+    html[lang="en"] .cta-section .background {
         height: 50vmin;
     }
 
-    .cta-content {
+    html[lang="en"] .cta-content {
         height: 50vmin;
+    }
+
+    html[lang="ar"] .cta-section .background {
+        height: 42vmin;
+    }
+
+    html[lang="ar"] .cta-content {
+        height: 42vmin;
     }
 }
 
