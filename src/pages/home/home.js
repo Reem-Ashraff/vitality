@@ -165,7 +165,7 @@ const Home = () => {
                     <div className="cta-content">
                         <h5>{t("home.cta-head")}</h5>
                         <p>{t("home.cta-description")}</p>
-                        <Link to="/contact"><button>{t("home.product-btn")}</button></Link>
+                        <Link to="/contact"><button>{t("home.contact-btn")}</button></Link>
                     </div>
                 </div>
             </section>
