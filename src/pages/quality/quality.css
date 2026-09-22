@@ -1,0 +1,261 @@
+.quality-main .hero-section {
+    height: 70vmin;
+    background-image: url(../../assets/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0vmin;
+}
+
+.quality-main .hero-shadow {
+    height: 70vmin;
+    width: 100%;
+    position: absolute;
+    top: 0vmin;
+}
+
+html[lang="en"] .quality-main .hero-shadow {
+    background-image: linear-gradient(to right, var(--background-color), #071c1500);
+}
+
+html[lang="ar"] .quality-main .hero-shadow {
+    background-image: linear-gradient(to left, var(--background-color), #071c1500);
+}
+
+.quality-main .hero-content {
+    padding: 20vmin 10vmin 10vmin;
+    height: 70vmin;
+    width: 100%;
+    position: absolute;
+    top: 0vmin;
+}
+
+.quality-main .hero-content h6 {
+    color: var(--text-primary);
+    letter-spacing: 0.3vmin;
+    font-size: 2.8vmin;
+    font-weight: 350;
+    margin-bottom: 7vmin;
+}
+
+.quality-main .hero-content h2 {
+    color: var(--text-primary);
+    letter-spacing: 0.3vmin;
+    font-size: 8vmin;
+    margin-bottom: 6vmin;
+}
+
+.quality-main .hero-content .hero-line {
+    padding: 0vmin !important;
+    color: var(--text-primary) !important;
+    width: 8%;
+    margin-bottom: 6vmin !important;
+}
+
+.quality-main .hero-content p {
+    color: var(--text-secondary);
+    font-size: 3vmin;
+    letter-spacing: 0.25vmin;
+    margin-bottom: 0vmin !important;
+}
+
+.quality-section {
+    padding: 10vmin 10vmin;
+}
+
+.quality-section h3 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    margin-bottom: 4vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+}
+
+.quality-section p {
+    color: var(--text-secondary);
+    font-size: 2.8vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 300;
+    margin-bottom: 2.5vmin;
+}
+
+.quality-section p:last-child {
+    margin-bottom: 0vmin !important;
+}
+
+.quality-section p span {
+    font-weight: 700;
+}
+
+.quality-section .quality-icon {
+    color: var(--text-secondary);
+    width: 100%;
+    height: 21vmin;
+    font-weight: 200;
+    stroke-width: 0.05vmin;
+}
+
+.quality-main hr {
+    margin: 0vmin !important;
+    padding: 0vmin !important;
+    color: var(--border-color) !important;
+}
+
+.standards-section {
+    padding: 10vmin 10vmin 7vmin;
+}
+
+.standards-section h3 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    margin-bottom: 6vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+}
+
+.standards-section .standard {
+    background-color: var(--surface-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.5vmin;
+    margin-bottom: 3vmin;
+    width: 24%;
+}
+
+html[lang="ar"] .standards-section .standard {
+    padding: 5vmin 4vmin 5vmin 4vmin;
+}
+
+html[lang="en"] .standards-section .standard {
+    padding: 5vmin 4vmin 5vmin 4vmin;
+}
+
+.standards-section .standard .item-icon {
+    color: var(--text-secondary);
+    width: 8vmin;
+    height: 8vmin;
+    font-weight: 200;
+    stroke-width: 0.13vmin;
+    margin-bottom: 3vmin;
+}
+
+.standards-section .standard h6 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    letter-spacing: 0.15vmin;
+    margin-bottom: 1.2vmin;
+}
+
+.standards-section .standard p {
+    color: var(--text-secondary);
+    margin-bottom: 0vmin !important;
+    font-size: 2.55vmin;
+    letter-spacing: 0.15vmin;
+    font-weight: 300;
+    margin-top: 2vmin;
+}
+
+.natural-section {
+    padding: 10vmin 10vmin 7vmin;
+}
+
+.natural-section h3 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    margin-bottom: 4vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+}
+
+.natural-section p {
+    color: var(--text-secondary);
+    font-size: 2.8vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 300;
+    margin-bottom: 3vmin;
+}
+
+.natural-section .item {
+    background-color: var(--surface-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.5vmin;
+    margin-bottom: 3vmin;
+    width: 32%;
+}
+
+html[lang="ar"] .natural-section .item {
+    padding: 5vmin 3vmin 5vmin 4vmin;
+}
+
+html[lang="en"] .natural-section .item {
+    padding: 5vmin 4vmin 5vmin 3vmin;
+}
+
+.natural-section .item .item-icon {
+    color: var(--text-secondary);
+    width: 8vmin;
+    height: 8vmin;
+    font-weight: 200;
+    stroke-width: 0.13vmin;
+}
+
+html[lang="ar"] .natural-section .item .item-icon {
+    margin-left: 3vmin;
+}
+
+html[lang="en"] .natural-section .item .item-icon {
+    margin-right: 3vmin;
+}
+
+.natural-section .item h6 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    letter-spacing: 0.15vmin;
+    margin-bottom: 1.2vmin;
+}
+
+.natural-section .item p {
+    color: var(--text-secondary);
+    margin-bottom: 0vmin !important;
+    font-size: 2.55vmin;
+    letter-spacing: 0.15vmin;
+    font-weight: 300;
+    margin-top: 2vmin;
+}
+
+
+@media (max-width: 768px) {
+    .standards-section .standard {
+        width: 100%;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .natural-section .item {
+        width: 49%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .standards-section .standard {
+        width: 49%;
+    }
+}
+
+@media (max-width: 944px) {
+    .quality-main .hero-section {
+        height: 80vmin;
+    }
+
+    .quality-main .hero-shadow {
+        height: 80vmin;
+    }
+
+    .quality-main .hero-content {
+        height: 80vmin;
+    }
+
+    .natural-section .item {
+        width: 100%;
+    }
+}

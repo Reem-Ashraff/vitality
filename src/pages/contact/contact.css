@@ -1,0 +1,122 @@
+.contact-main .hero-section{
+    height: 70vmin;
+    background-image: url(../../assets/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0vmin;
+}
+.contact-main .hero-shadow{
+    height: 70vmin;
+    width: 100%;
+    position: absolute;
+    top: 0vmin;
+}
+html[lang="en"] .contact-main .hero-shadow{
+    background-image: linear-gradient(to right,var(--background-color),#071c1500);
+}
+html[lang="ar"] .contact-main .hero-shadow{
+    background-image: linear-gradient(to left,var(--background-color),#071c1500);
+}
+.contact-main .hero-content{
+    padding: 20vmin 10vmin 10vmin;
+    height: 70vmin;
+    width: 100%;
+    position: absolute;
+    top: 0vmin;
+}
+.contact-main .hero-content h6{
+    color: var(--text-primary);
+    letter-spacing: 0.3vmin;
+    font-size: 2.8vmin;
+    font-weight: 350;
+    margin-bottom: 7vmin;
+}
+.contact-main .hero-content h2{
+    color: var(--text-primary);
+    letter-spacing: 0.3vmin;
+    font-size: 8vmin;
+    margin-bottom: 6vmin;
+}
+.contact-main .hero-content .hero-line{
+    padding: 0vmin !important;
+    color: var(--text-primary) !important;
+    width: 8%;
+    margin-bottom: 6vmin !important;
+}
+.contact-main .hero-content p{
+    color: var(--text-secondary);
+    font-size: 3vmin;
+    letter-spacing: 0.25vmin;
+    margin-bottom: 0vmin !important;
+}
+
+.contact-main hr{
+    margin: 0vmin !important;
+    padding: 0vmin !important;
+    color: var(--border-color) !important;
+}
+
+.contact-section{
+    padding: 10vmin 10vmin;
+}
+.contact-section h3{
+    color: var(--text-primary);
+    font-size: 4vmin;
+    margin-bottom: 4vmin;
+    letter-spacing: 0.15vmin;
+}
+.contact-section p{
+    color: var(--text-secondary);
+    font-size: 2.8vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 300;
+    margin-bottom: 0vmin !important;
+}
+
+.contact-info-section{
+    padding: 10vmin 10vmin 7vmin;
+}
+html[lang="en"] .contact-info-section .locations{
+    padding-right: 5vmin;
+}
+html[lang="ar"] .contact-info-section .locations{
+    padding-left: 5vmin;
+}
+.contact-info-section h3{
+    color: var(--text-primary);
+    font-size: 4vmin;
+    margin-bottom: 5vmin;
+    letter-spacing: 0.15vmin;
+}
+.contact-info-section .info{
+    margin-bottom: 3vmin;
+}
+.contact-info-section .info i{
+    font-size: 3.5vmin;
+    color: var(--text-primary);
+}
+html[lang="en"] .contact-info-section .info i{
+    margin-right: 3vmin;
+}
+html[lang="ar"] .contact-info-section .info i{
+    margin-left: 3vmin;
+}
+.contact-info-section .info h5{
+    font-size: 2.8vmin;
+    color: var(--text-primary);
+    letter-spacing: 0.15vmin;
+}
+.contact-info-section .info p{
+    font-size: 2.7vmin;
+    color: var(--text-secondary);
+    margin-bottom: 0vmin !important;
+    letter-spacing: 0.15vmin;
+}
+
+@media (max-width: 768px) {
+    .locations{
+        margin-bottom: 5vmin;
+    }
+}

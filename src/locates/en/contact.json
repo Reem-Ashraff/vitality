@@ -1,0 +1,25 @@
+{
+    "head": "CONTACT US",
+    "title": "Let’s Connect",
+    "description": "Have a question or need more information? We’re here to help.",
+    "section1-title": "Partnering for a Healthier Future",
+    "section1-description": "We are dedicated to building long-term partnerships across Egypt and the Middle East to achieve our shared goals of sustainable and healthy animal production. Our mission is to support animal health through natural solutions, which ultimately leads to a healthy human life free from chemicals and carcinogenic materials.",
+    "locations-title": "Our Locations",
+    "locations":[
+        {
+            "title":"Main Branch (Assiut)",
+            "location":"Assiut - Abnoub - Arab El-Awamer"
+        },
+        {
+            "title":"Cairo Office",
+            "location":"Hassan Ramadan Street (off Wezaret Elzeraa Street), Eldokki, Cairo"
+        }
+    ],
+    "details":"Contact Details",
+    "mobile-title":"Mobile",
+    "mobile":"+201091792457",
+    "whatsapp-title":"WhatsApp",
+    "whatsapp":"+436649263496",
+    "email-title":"Email",
+    "email":"omar.srour31@gmail.com"
+}

@@ -1,0 +1,56 @@
+{
+  "head": "QUALITY",
+  "title": "Quality Without Compromise",
+  "description": "Pharmaceutical-grade standards, rigorous controls. Trusted quality.",
+  "section1-title": "OUR QUALITY PHILOSOPHY",
+  "section1-description": "At Vitality, we define quality in a comprehensive sense. It is not just about the excellence of the final product, but the integrity of our daily work across all functions. Our commitment to quality begins with rigorous raw material selection and continues through every step of our controlled manufacturing process.",
+  "section2-title": "PHARMACEUTICAL-GRADE EXCELLENCE",
+  "section2-description": "We operate with a pharmaceutical quality mindset, applying the same level of precision and rigor found in the medicine industry to animal nutrition. Our production is developed using advanced European technology to ensure our partners receive solutions that are safe, reliable, and highly effective.",
+  "section3-title": "LEADERSHIP & EXPERTISE",
+  "section3-description1": "Our production and quality departments are supervised by",
+  "section3-bold": "Omar Srour, M.Pharm,",
+  "section3-description2": "a graduate of the University of Vienna and a former Quality Control Specialist at Boehringer Ingelheim Austria.",
+  "section3-description3": "His extensive background in Global GMP (Good Manufacturing Practice), HPLC, and pharmaceutical quality systems ensures that every batch of Vitality probiotics is produced under the highest international standards.",
+  "section4-title": "OUR QUALITY STANDARDS & CONTROLS",
+  "standards": [
+    {
+      "icon": "ShieldCheck",
+      "title": "GMP Compliance",
+      "description": "All manufacturing follows strict Good Manufacturing Practice standards to ensure product safety and quality."
+    },
+    {
+      "icon": "FileCheck",
+      "title": "Traceability",
+      "description": "We maintain meticulous batch documentation, allowing for full traceability from raw materials to the final delivered product."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Consistency & Verification",
+      "description": "We utilize continuous verification and process control to ensure every batch meets the exact same high-performance specifications."
+    },
+    {
+      "icon": "Thermometer",
+      "title": "Storage Monitoring",
+      "description": "Our quality assurance extends to the post-production phase, including rigorous storage monitoring to preserve the biological activity of our probiotic strains."
+    }
+  ],
+  "section5-title": "NATURAL AND SAFE SOLUTIONS",
+  "section5-descripton":"Vitality is committed to a 100% natural approach. Our quality promise ensures that our products:",
+  "section5Items": [
+    {
+      "icon": "FlaskConicalOff",
+      "title": "Zero Chemicals",
+      "description": "Contain zero chemicals, antibiotics, or hormones."
+    },
+    {
+      "icon": "Leaf",
+      "title": "No Carcinogenic Materials",
+      "description": "Are free from any carcinogenic materials, supporting a healthy food chain for humans."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Safe for Animals",
+      "description": "Are completely safe even if the recommended dose is redoubled, with no side effects for animals or poultry."
+    }
+  ]
+}

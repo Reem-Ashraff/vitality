@@ -1,0 +1,115 @@
+{
+  "head": "SOLUTIONS",
+  "title": "Our Solutions",
+  "description": "Scientifically Supported Probiotic Solutions for Sustainable Production.",
+  "challenge": "The Challenge:",
+  "vitality-solution": "The Vitality Solution:",
+  "solutions": [
+    {
+      "name": "POULTRY SOLUTIONS",
+      "head": "Disease Resistance & Viral Defense",
+      "challenge": "High mortality rates due to pathogens and viral threats like Bird Flu.",
+      "image": "../../../assets/chicken.PNG",
+      "descriptions": [
+        {
+          "head": "Drastic Mortality Reduction:",
+          "description": "Proven to reduce mortality from 50% down to 10% in birds challenged with VVNDV and ochratoxins."
+        },
+        {
+          "head": "Pathogen Control:",
+          "description": "Naturally replaces harmful bacteria such as Salmonella, E. coli, and Clostridia by promoting the growth of beneficial Lactobacilli and Bifidobacteria."
+        },
+        {
+          "head": "Viral Protection:",
+          "description": "Creates a hostile environment in the gut that inhibits the replication of harmful viruses, specifically the H5N1 influenza virus (Bird Flu)."
+        },
+        {
+          "head": "Performance:",
+          "description": "Improves weight loss issues caused by toxins and enhances the transformational efficiency of feed."
+        }
+      ]
+    },
+    {
+      "name": "LIVESTOCK SOLUTIONS",
+      "head": "Growth & Dairy Excellence",
+      "challenge": "Improving weight gain and maintaining milk quality in cattle, sheep, and camels.",
+      "image": "../../../assets/cow.PNG",
+      "descriptions": [
+        {
+          "head": "Superior Weight Gain:",
+          "description": "Achieves a 15-25% increase in growth over normal rates. Studies show a 170% weight gain compared to 130% in control groups over six months."
+        },
+        {
+          "head": "Dairy Optimization:",
+          "description": "Eliminates acidity in milk and increases total milk production for animals on concentrated rations."
+        },
+        {
+          "head": "Digestive Health:",
+          "description": "Acts as a natural appetite stimulant, prevents bloating and gluttony, and effectively treats fungal toxins in the digestive system."
+        }
+      ]
+    },
+    {
+      "name": "AQUACULTURE SOLUTIONS",
+      "head": "Water Quality & Metabolism",
+      "challenge": "High ammonia levels and low oxygen resistance in fish farming.  ",
+      "image": "../../../assets/fish.PNG",
+      "descriptions": [
+        {
+          "head": "Environmental Management:",
+          "description": "Specifically designed to decrease ammonia rates and reduce water pollution, leading to a healthier aquatic environment.  "
+        },
+        {
+          "head": "Metabolic Boost:",
+          "description": "Improves fish metabolism and increases overall body weight."
+        },
+        {
+          "head": "Vitality & Resilience:",
+          "description": "Increases red blood cell counts and hemoglobin levels to help fish resist low-oxygen environments."
+        },
+        {
+          "head": "Disease Prevention:",
+          "description": "Protects against bacterial diseases affecting the skin, respiratory, and digestive systems."
+        }
+      ]
+    },
+    {
+      "name": "RABBIT SOLUTIONS",
+      "head": "Stress & Productivity Management",
+      "challenge": "High sensitivity to heat and labor-related stress.",
+      "image": "../../../assets/rabbit.PNG",
+      "descriptions": [
+        {
+          "head": "Anti-Stress Protection:",
+          "description": "Increases resistance to severe stress resulting from high temperatures, labor, lactation, or sudden changes in feeding."
+        },
+        {
+          "head": "Immune Support:",
+          "description": "Raises the production of immune bodies and red blood cells to prevent GI diseases like diarrhea and impaction.  "
+        },
+        {
+          "head": "Growth & Quality:",
+          "description": "Promotes rapid growth and significantly improves the tenderness and taste of the meat."
+        }
+      ]
+    }
+  ],
+  "section-title":"WHY CHOOSE OUR SOLUTIONS",
+  "items": [
+    {
+      "icon": "Leaf",
+      "title": "100% Natural",
+      "description": "No chemicals, antibiotics, or hormones used in any of our solutions."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Pharmaceutical Quality",
+      "description": "Every solution is developed using European technology and supervised under strict GMP standards for maximum consistency."
+    },
+    {
+      "icon": "CircleStar",
+      "title": "Proven Results",
+      "description": "Backed by over 20 years of field experience and academic studies in the Middle East."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+    "about": "ABOUT",
+    "title": "VITALITY",
+    "description": "Natural microbial solutions for healthier animals, a more sustainable future.",
+    "section1-title": "OUR HERITAGE & EXPERTISE",
+    "vitality": "Vitality",
+    "section1-description1": "is an international firm that holds a leading position in the Middle East as a premier partner and supplier of feed additives for the compound feed industry and veterinary professionals.",
+    "section1-description2": "We take immense pride in being the pioneer in Egypt for the use of probiotics in animal feed, a legacy that began in 1990. Founded officially in Egypt in 2004, we have dedicated over 20 years to developing and producing high-quality microbial solutions for poultry, livestock, aquaculture, and rabbits.",
+    "section2-title": "OUR MISSION & VISION",
+    "section2Items": [
+        {
+            "icon": "Target",
+            "title": "Our Mission",
+            "description": "To deliver scientifically supported probiotic solutions that improve animal health and productivity while supporting sustainable livestock production."
+        },
+        {
+            "icon": "Eye",
+            "title": "Our Vision",
+            "description": "To become a leading probiotic manufacturer in the Middle East and Africa through quality, innovation, and customer trust."
+        }
+    ],
+    "section3-title": "THE PHARMACEUTICAL QUALITY MINDSET",
+    "section3-description1":"At Vitality, we apply a pharmaceutical quality mindset to every stage of our production.",
+    "section3-description2":"Our operations are supervised by",
+    "section3-bold":"Omar Srour, M.Pharm",
+    "section3-description3":", a graduate of the University of Vienna with specialized experience in Global GMP (Good Manufacturing Practice) and Quality Control.",
+    "section3-description4":"This pharmaceutical approach ensures that our products, developed with European technology, meet the highest standards of traceability. consistency, and continuous improvement.",
+    "section4-title": "OUR COMMITMENT TO QUALITY AND SAFETY",
+    "section4Items": [
+        {
+            "icon": "Leaf",
+            "title": "Natural Alternatives",
+            "description": "We focus on natural microbial solutions that contain no chemicals, antibiotics, or hormones."
+        },
+        {
+            "icon": "Users",
+            "title": "Human Health Strategy",
+            "description": "Our ultimate goal is to support a healthy human life by providing natural animal products that are free from carcinogenic materials."
+        },
+        {
+            "icon": "ShieldCheck",
+            "title": "Comprehensive Quality",
+            "description": "We define quality in a broad sense, encompassing not only the excellence of our products but also the precision and integrity of our daily work in all areas."
+        },
+        {
+            "icon": "ChartNoAxesCombined",
+            "title": "Proven Results",
+            "description": "Our solutions, like the fiogship Probiolact, are backed by extensive academic research demonstrating significant improvements in animal immunity, growth, and disease resistance."
+        }
+    ],
+    "section5-title": "A PARTNERSHIP FOR THE FUTURE",
+    "section5-description":"Partnership is at the center of our thoughts and actions. We are looking forward to building long-term relationships with partners across Egypt and the Middle East to achieve our shared goals of sustainable and healthy animal production."
+}

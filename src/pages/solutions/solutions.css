@@ -1,0 +1,217 @@
+.solutions-main .hero-section {
+    height: 70vmin;
+    background-image: url(../../assets/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0vmin;
+}
+
+.solutions-main .hero-shadow {
+    height: 70vmin;
+    width: 100%;
+    position: absolute;
+    top: 0vmin;
+}
+
+html[lang="en"] .solutions-main .hero-shadow {
+    background-image: linear-gradient(to right, var(--background-color), #071c1500);
+}
+
+html[lang="ar"] .solutions-main .hero-shadow {
+    background-image: linear-gradient(to left, var(--background-color), #071c1500);
+}
+
+.solutions-main .hero-content {
+    padding: 20vmin 10vmin 10vmin;
+    height: 70vmin;
+    width: 100%;
+    position: absolute;
+    top: 0vmin;
+}
+
+.solutions-main .hero-content h6 {
+    color: var(--text-primary);
+    letter-spacing: 0.3vmin;
+    font-size: 2.8vmin;
+    font-weight: 350;
+    margin-bottom: 7vmin;
+}
+
+.solutions-main .hero-content h2 {
+    color: var(--text-primary);
+    letter-spacing: 0.3vmin;
+    font-size: 8vmin;
+    margin-bottom: 6vmin;
+}
+
+.solutions-main .hero-content .hero-line {
+    padding: 0vmin !important;
+    color: var(--text-primary) !important;
+    width: 8%;
+    margin-bottom: 6vmin !important;
+}
+
+.solutions-main .hero-content p {
+    color: var(--text-secondary);
+    font-size: 3vmin;
+    letter-spacing: 0.25vmin;
+    margin-bottom: 0vmin !important;
+}
+
+.solutions-section {
+    padding: 10vmin 10vmin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.solutions-section:nth-of-type(odd) {
+    flex-direction: row-reverse;
+}
+
+.solutions-section:nth-of-type(even) {
+    flex-direction: row;
+}
+
+.solutions-section h3 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    margin-bottom: 4vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+}
+
+.solutions-section h5 {
+    color: var(--text-primary);
+    font-size: 3.5vmin;
+    margin-bottom: 4vmin;
+    font-weight: 500;
+    letter-spacing: 0.25vmin;
+}
+
+.solutions-section p {
+    color: var(--text-secondary);
+    font-size: 2.8vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 300;
+    margin-bottom: 2.5vmin;
+}
+
+.solutions-section p:last-child {
+    margin-bottom: 0vmin !important;
+}
+
+.solutions-section p span {
+    color: var(--text-primary);
+    font-size: 2.85vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 450;
+}
+
+.solutions-section .vitality-solution {
+    color: var(--text-primary);
+    font-size: 2.85vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 450;
+}
+
+.solutions-main hr {
+    margin: 0vmin !important;
+    padding: 0vmin !important;
+    color: var(--border-color) !important;
+}
+
+.why-solutions-section {
+    padding: 10vmin 10vmin 7vmin;
+}
+
+.why-solutions-section h3 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    margin-bottom: 6vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+}
+
+.why-solutions-section .item {
+    background-color: var(--surface-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.5vmin;
+    margin-bottom: 3vmin;
+    width: 32%;
+}
+
+html[lang="ar"] .why-solutions-section .item {
+    padding: 5vmin 3vmin 5vmin 4vmin;
+}
+
+html[lang="en"] .why-solutions-section .item {
+    padding: 5vmin 4vmin 5vmin 3vmin;
+}
+
+.why-solutions-section .item .item-icon {
+    color: var(--text-secondary);
+    width: 8vmin;
+    height: 8vmin;
+    font-weight: 200;
+    stroke-width: 0.13vmin;
+}
+
+html[lang="ar"] .why-solutions-section .item .item-icon {
+    margin-left: 3vmin;
+}
+
+html[lang="en"] .why-solutions-section .item .item-icon {
+    margin-right: 3vmin;
+}
+
+.why-solutions-section .item h6 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    letter-spacing: 0.15vmin;
+    margin-bottom: 1.2vmin;
+}
+
+.why-solutions-section .item p {
+    color: var(--text-secondary);
+    margin-bottom: 0vmin !important;
+    font-size: 2.55vmin;
+    letter-spacing: 0.15vmin;
+    font-weight: 300;
+    margin-top: 2vmin;
+}
+
+@media (max-width: 992px) {
+    .solutions-section {
+        padding: 10vmin 10vmin;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .solutions-section:nth-of-type(odd) {
+        flex-direction: column-reverse;
+    }
+
+    .solutions-section:nth-of-type(even) {
+        flex-direction: column-reverse;
+    }
+
+    .solution-image {
+        margin-bottom: 5vmin;
+    }
+}
+
+@media (max-width: 992px) {
+    .why-solutions-section .item {
+        width: 100%;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .why-solutions-section .item {
+        width: 49%;
+    }
+}

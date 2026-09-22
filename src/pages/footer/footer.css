@@ -1,0 +1,126 @@
+footer{
+    background-color: var(--background-color);
+    box-shadow: 0vmin 0vmin 0.5vmin var(--border-color);
+    padding: 8vmin 0vmin 8vmin;
+}
+footer .logo-div{
+    padding: 0vmin 5vmin;
+}
+footer .head h2{
+    color: var(--text-primary);
+    font-size: 3.5vmin;
+    letter-spacing: 0.25vmin;
+}
+footer .head .logo{
+    width: 12%;
+    margin-bottom: 0vmin !important;
+}
+html[lang="ar"] footer .head h2{
+    margin-right: 2vmin;
+}
+html[lang="en"] footer .head h2{
+    margin-left: 2vmin;
+}
+footer .logo-div p{
+    color: var(--text-secondary);
+    font-size: 2.6vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 300;
+    margin-bottom: 0vmin !important;
+    margin-top: 3vmin;
+}
+
+footer .quick-links{
+    padding: 0vmin 5vmin;
+}
+footer .quick-links h3{
+    color: var(--text-primary);
+    letter-spacing: 0.15vmin;
+    font-size: 3vmin;
+}
+footer .quick-links ul{
+    list-style: none;
+    margin-top: 3vmin;
+}
+footer .quick-links ul .link{
+    color: var(--text-secondary);
+}
+footer .quick-links ul li{
+    font-size: 2.5vmin;
+    color: var(--text-secondary);
+    letter-spacing: 0.15vmin;
+    margin-bottom: 1vmin;
+    font-weight: 300;
+}
+
+footer .solutions-div{
+    padding: 0vmin 5vmin;
+}
+footer .solutions-div h3{
+    color: var(--text-primary);
+    letter-spacing: 0.15vmin;
+    font-size: 3vmin;
+}
+footer .solutions-div ul{
+    list-style: none;
+    margin-top: 3vmin;
+}
+footer .solutions-div ul .link{
+    color: var(--text-secondary);
+    line-height: 1vmin;
+}
+footer .solutions-div ul li{
+    font-size: 2.5vmin;
+    color: var(--text-secondary);
+    letter-spacing: 0.15vmin;
+    margin-bottom: 1vmin;
+    font-weight: 300;
+}
+
+footer .contact-div{
+    padding: 0vmin 5vmin;
+}
+footer .contact-div h3{
+    color: var(--text-primary);
+    letter-spacing: 0.15vmin;
+    font-size: 3vmin;
+    margin-bottom: 3vmin;
+}
+.contact-div .info{
+    margin-bottom: 2vmin;
+}
+.contact-div .info i{
+    font-size: 2.7vmin;
+    color: var(--text-secondary);
+}
+html[lang="en"] .contact-div .info i{
+    margin-right: 3vmin;
+}
+html[lang="ar"] .contact-div .info i{
+    margin-left: 3vmin;
+}
+.contact-div .info p{
+    font-size: 2.5vmin;
+    color: var(--text-secondary);
+    margin-bottom: 0vmin !important;
+    letter-spacing: 0.15vmin;
+    font-weight: 300;
+}
+
+@media (max-width: 1200px) {
+    footer div{
+        margin-bottom: 3vmin;
+    }
+    footer div:last-child{
+        margin-bottom: 0vmin;
+    }
+    html[lang="en"] footer .solutions-div ul li{
+    margin-right: 3vmin;
+    }
+    html[lang="ar"] footer .solutions-div ul li{
+    margin-left: 3vmin;
+    }
+    footer .head .logo{
+    width: 7%;
+}
+}

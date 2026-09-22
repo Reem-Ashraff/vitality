@@ -1,0 +1,336 @@
+.product-main .hero-section {
+    height: 70vmin;
+    background-image: url(../../assets/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0vmin;
+}
+
+.product-main .hero-shadow {
+    height: 70vmin;
+    width: 100%;
+    position: absolute;
+    top: 0vmin;
+}
+
+html[lang="en"] .product-main .hero-shadow {
+    background-image: linear-gradient(to right, var(--background-color), #071c1500);
+}
+
+html[lang="ar"] .product-main .hero-shadow {
+    background-image: linear-gradient(to left, var(--background-color), #071c1500);
+}
+
+.product-main .hero-content {
+    padding: 20vmin 10vmin 10vmin;
+    height: 70vmin;
+    width: 100%;
+    position: absolute;
+    top: 0vmin;
+}
+
+.product-main .hero-content h6 {
+    color: var(--text-primary);
+    letter-spacing: 0.3vmin;
+    font-size: 2.8vmin;
+    font-weight: 350;
+    margin-bottom: 7vmin;
+}
+
+.product-main .hero-content h2 {
+    color: var(--text-primary);
+    letter-spacing: 0.3vmin;
+    font-size: 8vmin;
+    margin-bottom: 6vmin;
+}
+
+.product-main .hero-content .hero-line {
+    padding: 0vmin !important;
+    color: var(--text-primary) !important;
+    width: 8%;
+    margin-bottom: 6vmin !important;
+}
+
+.product-main .hero-content p {
+    color: var(--text-secondary);
+    font-size: 3vmin;
+    letter-spacing: 0.25vmin;
+    margin-bottom: 0vmin !important;
+}
+
+.overview-section {
+    padding: 10vmin 10vmin;
+}
+
+.overview-section h3 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    margin-bottom: 4vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+}
+
+.overview-section h5 {
+    color: var(--text-primary);
+    font-size: 3.5vmin;
+    margin-bottom: 4vmin;
+    font-weight: 500;
+    letter-spacing: 0.25vmin;
+}
+
+.overview-section p {
+    color: var(--text-secondary);
+    font-size: 2.8vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 300;
+    margin-bottom: 2.5vmin;
+}
+
+.overview-section p:last-child {
+    margin-bottom: 0vmin !important;
+}
+
+.overview-section p span {
+    color: var(--text-primary);
+    font-size: 2.85vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 450;
+}
+
+.overview-section .items-div {
+    background-color: var(--surface-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.5vmin;
+    padding: 2.8vmin 5vmin;
+}
+
+.overview-section .items-div div {
+    color: var(--text-primary);
+    font-size: 2.3vmin;
+    letter-spacing: 0.15vmin;
+    font-weight: 300;
+}
+
+html[lang="en"] .overview-section .items-div div {
+    border-right: 0.2vmin solid var(--border-color);
+    padding-right: 6vmin;
+}
+
+html[lang="en"] .overview-section .items-div div:last-child {
+    border-right: none;
+    padding-right: 0vmin;
+}
+
+html[lang="ar"] .overview-section .items-div div {
+    border-left: 0.2vmin solid var(--border-color);
+    padding-left: 9vmin;
+}
+
+html[lang="ar"] .overview-section .items-div div:last-child {
+    border-left: none;
+    padding-left: 0vmin;
+}
+
+.product-main hr {
+    margin: 0vmin !important;
+    padding: 0vmin !important;
+    color: var(--border-color) !important;
+}
+
+.advantages-section {
+    padding: 10vmin 10vmin 7vmin;
+}
+
+.advantages-section h3 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    margin-bottom: 6vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+}
+
+.advantages-section .advantage {
+    background-color: var(--surface-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.5vmin;
+    margin-bottom: 3vmin;
+    width: 32%;
+}
+
+html[lang="ar"] .advantages-section .advantage {
+    padding: 5vmin 3vmin 5vmin 4vmin;
+}
+
+html[lang="en"] .advantages-section .advantage {
+    padding: 5vmin 4vmin 5vmin 3vmin;
+}
+
+.advantages-section .advantage .item-icon {
+    color: var(--text-secondary);
+    width: 8vmin;
+    height: 8vmin;
+    font-weight: 200;
+    stroke-width: 0.13vmin;
+}
+
+html[lang="ar"] .advantages-section .advantage .item-icon {
+    margin-left: 3vmin;
+}
+
+html[lang="en"] .advantages-section .advantage .item-icon {
+    margin-right: 3vmin;
+}
+
+.advantages-section .advantage h6 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    letter-spacing: 0.15vmin;
+    margin-bottom: 1.2vmin;
+}
+
+.advantages-section .advantage p {
+    color: var(--text-secondary);
+    margin-bottom: 0vmin !important;
+    font-size: 2.55vmin;
+    letter-spacing: 0.15vmin;
+    font-weight: 300;
+    margin-top: 2vmin;
+}
+
+.sectors-section {
+    padding: 10vmin 10vmin 7vmin;
+}
+
+.sectors-section h3 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    margin-bottom: 6vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+}
+
+.sectors-section .sector {
+    background-color: var(--surface-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.5vmin;
+    margin-bottom: 3vmin;
+    width: 49.2%;
+}
+
+html[lang="ar"] .sectors-section .sector {
+    padding: 5vmin 4vmin 5vmin 4vmin;
+}
+
+html[lang="en"] .sectors-section .sector {
+    padding: 5vmin 4vmin 5vmin 4vmin;
+}
+
+.sectors-section .sector img {
+    width: 15%;
+    height: 11vmin;
+}
+
+html[lang="ar"] .sectors-section .sector img {
+    margin-left: 3vmin;
+}
+
+html[lang="en"] .sectors-section .sector img {
+    margin-right: 3vmin;
+}
+
+.sectors-section .sector h6 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    letter-spacing: 0.15vmin;
+    margin-bottom: 1.2vmin;
+}
+
+.sectors-section .sector .sector-description {
+    margin-top: 3vmin;
+}
+
+.sectors-section .sector p {
+    color: var(--text-secondary);
+    margin-bottom: 0vmin !important;
+    font-size: 2.55vmin;
+    letter-spacing: 0.15vmin;
+    font-weight: 300;
+    margin-top: 2vmin;
+}
+
+.sectors-section .sector p:first-child {
+    margin-top: 0vmin;
+}
+
+.sectors-section .sector p span {
+    font-weight: 800;
+}
+
+.specifications-section {
+    padding: 10vmin 10vmin;
+}
+
+.specifications-section h3 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    margin-bottom: 4vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+}
+
+.specifications-section p {
+    color: var(--text-secondary);
+    font-size: 2.8vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 300;
+    margin-bottom: 2.5vmin;
+}
+
+.specifications-section p:last-child {
+    margin-bottom: 0vmin !important;
+}
+
+.specifications-section p span {
+    color: var(--text-primary);
+    font-size: 2.85vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 450;
+}
+
+@media (max-width: 768px) {
+    .advantages-section .advantage {
+        width: 100%;
+    }
+}
+@media (max-width: 992px) {
+    .sectors-section .sector {
+        width: 100%;
+    }
+}
+@media (max-width: 1400px) {
+    .overview-section .items-div div{
+        border: none !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    .advantages-section .advantage {
+        width: 49%;
+    }
+}
+
+@media (max-width: 843px) {
+    .product-main .hero-section {
+        height: 80vmin;
+    }
+
+    .product-main .hero-shadow {
+        height: 80vmin;
+    }
+
+    .product-main .hero-content {
+        height: 80vmin;
+    }
+}

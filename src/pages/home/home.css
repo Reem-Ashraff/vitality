@@ -1,0 +1,508 @@
+.home-main .hero-section {
+    height: 100vh;
+    background-image: url(../../assets/hero-background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0vmin;
+}
+
+.home-main .hero-shadow {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, var(--background-color), #071c1500);
+    position: absolute;
+    top: 0vmin;
+}
+
+.home-main .hero-content {
+    padding: 0vmin 10vmin;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0vmin;
+}
+
+html[lang="en"] .hero-content .first-line {
+    margin-bottom: 10vmin;
+}
+
+html[lang="ar"] .hero-content .first-line {
+    margin-bottom: 6vmin;
+}
+
+.hero-content .first-line p {
+    color: var(--text-primary);
+    font-size: 2.7vmin;
+    letter-spacing: 0.25vmin;
+}
+
+.hero-content .main-content h1 {
+    color: var(--text-secondary);
+    text-align: center;
+    letter-spacing: 0.3vmin;
+    font-size: 22vmin;
+}
+
+html[lang="en"] .hero-content .main-content h1 {
+    margin-bottom: 3vmin;
+}
+
+html[lang="ar"] .hero-content .main-content h1 {
+    margin-bottom: 10vmin;
+}
+
+.hero-content .main-content p {
+    color: var(--text-primary);
+    font-size: 4vmin;
+    letter-spacing: 0.3vmin;
+    text-align: center;
+}
+
+.home-about-section {
+    padding: 10vmin 10vmin;
+}
+
+.home-about-section h3 {
+    color: var(--text-primary);
+    font-size: 4vmin;
+    margin-bottom: 4vmin;
+}
+
+.home-about-section h5 {
+    color: var(--text-primary);
+    font-size: 3.2vmin;
+    letter-spacing: 0.2vmin;
+    margin-bottom: 3vmin;
+}
+
+.home-about-section p {
+    color: var(--text-secondary);
+    font-size: 2.8vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 300;
+    margin-bottom: 2.5vmin;
+}
+
+.home-about-section button {
+    background-color: var(--surface-color);
+    color: var(--text-primary);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.5vmin;
+    font-size: 2.6vmin;
+    padding: 1vmin 2vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+}
+
+.home-main hr {
+    margin: 0vmin !important;
+    padding: 0vmin !important;
+    color: var(--border-color) !important;
+}
+
+.what-section {
+    padding: 10vmin 10vmin;
+}
+
+.what-section h3 {
+    color: var(--text-primary);
+    font-size: 4vmin;
+    margin-bottom: 4vmin;
+}
+
+.what-section h5 {
+    color: var(--text-primary);
+    font-size: 3.2vmin;
+    letter-spacing: 0.2vmin;
+    margin-bottom: 5vmin;
+}
+
+.what-section .solution {
+    width: 23.5%;
+    background-color: var(--surface-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.5vmin;
+    color: var(--text-primary);
+    padding: 5vmin 3vmin 6vmin;
+}
+
+.what-section .solution img {
+    width: 46%;
+    height: 15vmin;
+    margin-bottom: 4vmin;
+}
+
+.what-section .solution h6 {
+    color: var(--text-primary);
+    font-size: 3.1vmin;
+    letter-spacing: 0.15vmin;
+    margin-bottom: 2vmin;
+}
+
+.what-section .solution p {
+    margin-bottom: 0vmin !important;
+    color: var(--text-secondary);
+    font-size: 2.6vmin;
+    letter-spacing: 0.15vmin;
+    font-weight: 300;
+}
+
+.home-product-section {
+    padding: 10vmin 10vmin;
+}
+
+.home-product-section h3 {
+    color: var(--text-primary);
+    font-size: 4vmin;
+    margin-bottom: 4vmin;
+}
+
+.home-product-section h5 {
+    color: var(--text-primary);
+    font-size: 3.2vmin;
+    letter-spacing: 0.2vmin;
+    margin-bottom: 3vmin;
+}
+
+.home-product-section p {
+    color: var(--text-secondary);
+    font-size: 2.8vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 300;
+    margin-bottom: 5vmin;
+}
+
+.home-product-section .benefit {
+    background-color: var(--surface-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.5vmin;
+    margin-bottom: 3vmin;
+    padding: 3vmin 3vmin;
+}
+
+.home-product-section .benefit:last-child {
+    margin-bottom: 0vmin;
+}
+
+.home-product-section .benefit .benefit-icon {
+    color: var(--text-secondary);
+    width: 8vmin;
+    height: 8vmin;
+    font-weight: 200;
+    stroke-width: 0.13vmin;
+}
+
+html[lang="ar"] .home-product-section .benefit .benefit-icon {
+    margin-left: 3vmin;
+}
+
+html[lang="en"] .home-product-section .benefit .benefit-icon {
+    margin-right: 3vmin;
+}
+
+.home-product-section .benefit h6 {
+    color: var(--text-primary);
+    font-size: 3.1vmin;
+    letter-spacing: 0.15vmin;
+    margin-bottom: 1.2vmin;
+}
+
+.home-product-section .benefit p {
+    color: var(--text-secondary);
+    margin-bottom: 0vmin !important;
+    font-size: 2.65vmin;
+    letter-spacing: 0.15vmin;
+    font-weight: 300;
+}
+
+.home-product-section .dosage {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    letter-spacing: 0.2vmin;
+    margin-top: 3.5vmin;
+}
+
+.home-product-section .dosage span {
+    color: var(--text-secondary);
+    font-size: 2.8vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 300;
+}
+
+.home-product-section button {
+    background-color: var(--surface-color);
+    color: var(--text-primary);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.5vmin;
+    font-size: 2.6vmin;
+    padding: 1vmin 2vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+    margin-top: 3vmin;
+}
+
+.why-section {
+    padding: 10vmin 10vmin 7vmin;
+}
+
+.why-section h3 {
+    color: var(--text-primary);
+    font-size: 4vmin;
+    margin-bottom: 4vmin;
+}
+
+.why-section h5 {
+    color: var(--text-primary);
+    font-size: 3.2vmin;
+    letter-spacing: 0.2vmin;
+    margin-bottom: 5vmin;
+}
+
+.why-section .why-item {
+    background-color: var(--surface-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.5vmin;
+    margin-bottom: 3vmin;
+    padding: 3vmin 3vmin;
+    width: 49%;
+}
+
+.why-section .why-item .item-icon {
+    color: var(--text-secondary);
+    width: 8vmin;
+    height: 8vmin;
+    font-weight: 200;
+    stroke-width: 0.13vmin;
+}
+
+html[lang="ar"] .why-section .why-item .item-icon {
+    margin-left: 3vmin;
+}
+
+html[lang="en"] .why-section .why-item .item-icon {
+    margin-right: 3vmin;
+}
+
+.why-section .why-item h6 {
+    color: var(--text-primary);
+    font-size: 3.1vmin;
+    letter-spacing: 0.15vmin;
+    margin-bottom: 1.2vmin;
+}
+
+.why-section .why-item p {
+    color: var(--text-secondary);
+    margin-bottom: 0vmin !important;
+    font-size: 2.65vmin;
+    letter-spacing: 0.15vmin;
+    font-weight: 300;
+}
+
+.home-quality-section {
+    padding: 10vmin 10vmin;
+}
+
+.home-quality-section h3 {
+    color: var(--text-primary);
+    font-size: 4vmin;
+    margin-bottom: 4vmin;
+}
+
+.home-quality-section h5 {
+    color: var(--text-primary);
+    font-size: 3.2vmin;
+    letter-spacing: 0.2vmin;
+    margin-bottom: 3vmin;
+}
+
+.home-quality-section h5:last-child {
+    margin-bottom: 0vmin;
+}
+
+.home-quality-section p {
+    color: var(--text-secondary);
+    font-size: 2.8vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 300;
+    margin-bottom: 2.5vmin;
+}
+
+.home-quality-section .quality-icon {
+    color: var(--text-secondary);
+    width: 100%;
+    height: 28vmin;
+    font-weight: 200;
+    stroke-width: 0.05vmin;
+}
+
+.commitment-section {
+    padding: 10vmin 10vmin;
+}
+
+.commitment-section h3 {
+    color: var(--text-primary);
+    font-size: 4vmin;
+    margin-bottom: 4vmin;
+}
+
+.commitment-section h5 {
+    color: var(--text-primary);
+    font-size: 3.2vmin;
+    letter-spacing: 0.2vmin;
+    margin-bottom: 3vmin;
+}
+
+.commitment-section p {
+    color: var(--text-secondary);
+    font-size: 2.8vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 300;
+    margin-bottom: 0vmin !important;
+}
+
+.commitment-section .commitment-icon {
+    color: var(--text-secondary);
+    width: 100%;
+    height: 21vmin;
+    font-weight: 200;
+    stroke-width: 0.05vmin;
+}
+
+.cta-section {
+    padding: 10vmin 10vmin;
+}
+
+.cta-section .background {
+    background-image: url(../../assets/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8vmin 5vmin;
+    text-align: center;
+    position: relative;
+    height: 37vmin;
+}
+
+.cta-section .background .shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0vmin;
+    left: 0vmin;
+    background-color: #071c159c;
+    z-index: 2000;
+}
+
+.cta-content {
+    position: absolute;
+    top: 0vmin;
+    left: 0vmin;
+    width: 100%;
+    padding: 8vmin 5vmin;
+    z-index: 8000;
+    height: 37vmin;
+}
+
+.cta-section .cta-content h5 {
+    color: var(--text-primary);
+    font-size: 3.2vmin;
+    letter-spacing: 0.2vmin;
+    margin-bottom: 3vmin;
+}
+
+.cta-section .cta-content p {
+    color: var(--text-secondary);
+    font-size: 2.8vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 300;
+    margin-bottom: 2.5vmin;
+}
+
+.cta-section .cta-content button {
+    background-color: var(--surface-color);
+    color: var(--text-primary);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.5vmin;
+    font-size: 2.6vmin;
+    padding: 1vmin 2vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .what-section .solution {
+        width: 49%;
+        margin-bottom: 3vmin;
+    }
+
+    .what-section .solution img {
+        width: 25%;
+        height: 12vmin;
+    }
+
+    .what-section {
+        padding: 10vmin 10vmin 7vmin;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .cta-section .background {
+        height: 41vmin;
+    }
+
+    .cta-content {
+        height: 41vmin;
+    }
+    html[lang="en"] .hero-content .main-content h1 {
+        font-size: 16vmin;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .cta-section .background {
+        height: 39vmin;
+    }
+
+    .cta-content {
+        height: 41vmin;
+    }
+}
+@media (max-width: 768px) {
+    html[lang="en"] .hero-content .main-content h1 {
+        font-size: 17vmin;
+    }
+
+    .what-section .solution {
+        width: 100%;
+        margin-bottom: 3vmin;
+    }
+
+    .what-section .solution:last-child {
+        margin-bottom: 0vmin;
+    }
+
+    .what-section .solution img {
+        width: 20%;
+        height: 12vmin;
+    }
+
+    .cta-section .background {
+        height: 50vmin;
+    }
+
+    .cta-content {
+        height: 50vmin;
+    }
+}
+
+@media (max-width: 992px) {
+    .why-section .why-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .SpotlightImage {
+        display: none;
+    }
+}

@@ -1,0 +1,92 @@
+{
+  "paragraph1": "PROBIOTIC FEED ADDITIVES",
+  "paragraph2": "SINCE 2004",
+  "bold": "VITALITY",
+  "description":"Better Nutrition. Healthier Production",
+  "about": "WHO WE ARE",
+  "about-head":"20+ years of science-driven solutions for better animal nutrition.",
+  "description1" : "Since 2004, Vitality has been developing probiotic feed additives for poultry, livestock, aquaculture, and rabbits.",
+  "description2" : "By combining natural microbial solutions, European technology, and pharmaceutical-quality standards, we help our partners achieve healthier production and more sustainable performance.",
+  "description3" : "Quality. Innovation. Trust. Partnership.",
+  "more1":"Discover Vitality",
+  "what": "WHAT WE DO",
+  "what-head": "Solutions Designed for Better Animal Health.",
+  "solutions":[
+    {
+      "name": "Poultry",
+      "image": "../../../assets/chicken.PNG",
+      "description":"Probiotic and microbial solutions supporting poultry health and productivity."
+    },
+    {
+      "name": "Aquaculture",
+      "image": "../../../assets/fish.PNG",
+      "description":"Natural microbial solutions designed to support health and sustainable aquaculture production."
+    },
+    {
+      "name": "Livestock",
+      "image": "../../../assets/cow.PNG",
+      "description":"Solutions focused on supporting livestock health, performance, and productivity."
+    },
+    {
+      "name": "Rabbits",
+      "image": "../../../assets/rabbit.PNG",
+      "description":"Probiotic solutions supporting animal health and efficient production."
+    }
+  ],
+  "product-spotlight": "PRODUCT SPOTLIGHT",
+  "product-head": "Meet Probiolact: The Natural Growth Stimulant",
+  "product-description": "Probiolact is a natural biological feed additive containing beneficial bacteria and yeast, including Saccharomyces cerevisiae, Lactobacillus acidophilus, and Bifidus.",
+  "productBenefits": [
+    {
+      "icon":"ShieldCheck",
+      "title":"Immunity",
+      "description":"Supports immune function and contributes to improved blood health."
+    },
+    {
+      "icon":"Leaf",
+      "title":"Digestive Efficiency",
+      "description":"Supports the efficient utilization of undigested proteins, contributing to improved weight gain."
+    },
+    {
+      "icon":"ShieldPlus",
+      "title":"Gut Protection",
+      "description":"Helps create a favorable intestinal environment that supports protection against harmful microorganisms."
+    }
+  ],
+  "standard-dosage" : "STANDARD DOSAGE:",
+  "dosage" : "1 kg / ton of feed",
+  "product-btn" : "Explore Probiolact",
+  "why": "WHY VITALITY",
+  "why-head": "Built on Quality, Science, and Partnership.",
+  "whyItems": [
+    {
+      "icon": "Leaf",
+      "title": "Natural Alternative Solutions:",
+      "description":"Probiotics that contain zero chemicals, antibiotics, or hormones."
+    },
+    {
+      "icon": "Globe",
+      "title": "European Technology:",
+      "description":"High-quality products developed with advanced pharmaceutical standards."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Pharmaceutical Quality Mindset:",
+      "description":"Production is supervised by experts, emphasizing traceability, consistency, and GMP standards."
+    },
+    {
+      "icon": "CircleStar",
+      "title": "Proven Experience:",
+      "description":"Over two decades of experience in the Egyptian and Middle Eastern markets."
+    }
+  ],
+  "quality":"OUR APPROACH TO QUALITY",
+  "quality-head":"Quality from Raw Materials to Finished Products",
+  "quality-description1":"Quality begins with raw material selection and continues through controlled manufacturing, batch documentation, traceability, storage monitoring, and continuous verification.",
+  "quality-description2":"Traceability. Consistency. Continuous Improvement.",
+  "commitment":"OUR COMMITMENT",
+  "commitment-head":"Supporting Healthier and More Sustainable Animal Production",
+  "commitment-description":"To deliver scientifically supported probiotic solutions that improve animal health and productivity while supporting sustainable livestock production.",
+  "cta-head":"Let’s Build Healthier Animal Production Together",
+  "cta-description":"Partner with Vitality for natural microbial solutions backed by science, quality, and experience."
+}

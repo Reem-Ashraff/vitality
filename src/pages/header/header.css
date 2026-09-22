@@ -1,0 +1,106 @@
+header {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    top: 0vmin;
+    z-index: 2000000;
+    padding: 1.8vmin 5vmin;
+}
+
+header .head h2 {
+    color: var(--text-primary);
+    font-size: 3.5vmin;
+    letter-spacing: 0.25vmin;
+    margin-bottom: 0vmin;
+}
+
+html[lang="ar"] header .head h2 {
+    margin-right: 2vmin;
+}
+
+html[lang="en"] header .head h2 {
+    margin-left: 2vmin;
+}
+
+header ul {
+    color: var(--text-primary);
+}
+
+header ul li {
+    list-style: none;
+    font-size: 2.6vmin;
+    letter-spacing: 0.15vmin;
+}
+
+header .link {
+    color: var(--text-primary);
+    font-weight: 300;
+}
+
+html[lang="ar"] .link {
+    margin-left: 3vmin;
+}
+
+html[lang="ar"] .link:last-child {
+    margin-left: 0vmin;
+}
+
+html[lang="en"] .link {
+    margin-right: 3vmin;
+}
+
+html[lang="en"] .link:last-child {
+    margin-right: 0vmin;
+}
+
+header .active {
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+
+header select {
+    background-color: var(--surface-color);
+    color: var(--text-primary);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.5vmin;
+    font-size: 2.3vmin;
+    letter-spacing: 0.1vmin;
+}
+
+html[lang="en"] header select {
+    padding: 1.2vmin 2vmin;
+    font-weight: 300;
+}
+
+html[lang="ar"] header select {
+    padding: 0.5vmin 2vmin;
+}
+
+header select option {
+    color: var(--text-primary);
+    font-size: 2.3vmin;
+    letter-spacing: 0.1vmin;
+    border: 0.2vmin solid var(--border-color);
+}
+
+header button {
+    background-color: transparent;
+    border: none !important;
+    padding: 0vmin 0vmin !important;
+    color: transparent !important;
+}
+
+header button span {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23F5F3EA' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    font-size: 3vmin !important;
+}
+
+@media (max-width: 992px) {
+    header ul li {
+        margin-bottom: 2vmin;
+    }
+    .navbar-collapse{
+        background-color: var(--surface-color);
+        padding: 3vmin 3vmin;
+    }
+}

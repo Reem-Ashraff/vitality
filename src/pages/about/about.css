@@ -1,0 +1,273 @@
+.about-main .hero-section {
+    height: 70vmin;
+    background-image: url(../../assets/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0vmin;
+}
+
+.about-main .hero-shadow {
+    height: 70vmin;
+    width: 100%;
+    position: absolute;
+    top: 0vmin;
+}
+
+html[lang="en"] .about-main .hero-shadow {
+    background-image: linear-gradient(to right, var(--background-color), #071c1500);
+}
+
+html[lang="ar"] .about-main .hero-shadow {
+    background-image: linear-gradient(to left, var(--background-color), #071c1500);
+}
+
+.about-main .hero-content {
+    padding: 20vmin 10vmin 10vmin;
+    height: 70vmin;
+    width: 100%;
+    position: absolute;
+    top: 0vmin;
+}
+
+.about-main .hero-content h6 {
+    color: var(--text-primary);
+    letter-spacing: 0.3vmin;
+    font-size: 2.8vmin;
+    font-weight: 350;
+    margin-bottom: 7vmin;
+}
+
+.about-main .hero-content h2 {
+    color: var(--text-primary);
+    letter-spacing: 0.3vmin;
+    font-size: 8vmin;
+    margin-bottom: 6vmin;
+}
+
+.about-main .hero-content .hero-line {
+    padding: 0vmin !important;
+    color: var(--text-primary) !important;
+    width: 8%;
+    margin-bottom: 6vmin !important;
+}
+
+.about-main .hero-content p {
+    color: var(--text-secondary);
+    font-size: 3vmin;
+    letter-spacing: 0.25vmin;
+    margin-bottom: 0vmin !important;
+}
+
+.heritage-section {
+    padding: 10vmin 10vmin;
+}
+
+.heritage-section h3 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    margin-bottom: 4vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+}
+
+.heritage-section p {
+    color: var(--text-secondary);
+    font-size: 2.8vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 300;
+    margin-bottom: 2.5vmin;
+}
+
+.heritage-section p:last-child {
+    margin-bottom: 0vmin !important;
+}
+
+.heritage-section p span {
+    color: var(--text-primary);
+    font-size: 2.85vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 450;
+}
+
+.about-main hr {
+    margin: 0vmin !important;
+    padding: 0vmin !important;
+    color: var(--border-color) !important;
+}
+
+.mission-section {
+    padding: 10vmin 10vmin;
+}
+
+.mission-section h3 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    margin-bottom: 5vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+}
+
+.mission-section .item {
+    background-color: var(--surface-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.5vmin;
+    padding: 3vmin 4vmin 5vmin;
+    width: 49%;
+}
+
+.mission-section .item .item-icon {
+    color: var(--text-secondary);
+    width: 8vmin;
+    height: 8vmin;
+    font-weight: 200;
+    stroke-width: 0.13vmin;
+}
+
+.mission-section .item h6 {
+    color: var(--text-primary);
+    font-size: 3.1vmin;
+    letter-spacing: 0.15vmin;
+    margin-bottom: 2vmin;
+    margin-top: 2.5vmin;
+}
+
+.mission-section .item p {
+    color: var(--text-secondary);
+    margin-bottom: 0vmin !important;
+    font-size: 2.65vmin;
+    letter-spacing: 0.15vmin;
+    font-weight: 300;
+}
+
+.quality-mindset-section {
+    padding: 10vmin 10vmin;
+}
+
+.quality-mindset-section h3 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    margin-bottom: 4vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+}
+
+.quality-mindset-section p {
+    color: var(--text-secondary);
+    font-size: 2.8vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 300;
+    margin-bottom: 2.5vmin;
+}
+
+.quality-mindset-section p:last-child {
+    margin-bottom: 0vmin !important;
+}
+
+.quality-mindset-section p span {
+    font-size: 2.85vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 600;
+}
+
+.quality-commitment-section {
+    padding: 10vmin 10vmin 7vmin;
+}
+
+.quality-commitment-section h3 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    margin-bottom: 5vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+}
+
+.quality-commitment-section .item {
+    background-color: var(--surface-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.5vmin;
+    padding: 3vmin 4vmin 5vmin;
+    width: 49%;
+    margin-bottom: 3vmin;
+}
+
+.quality-commitment-section .item .item-icon {
+    color: var(--text-secondary);
+    width: 8vmin;
+    height: 8vmin;
+    font-weight: 200;
+    stroke-width: 0.13vmin;
+}
+
+.quality-commitment-section .item h6 {
+    color: var(--text-primary);
+    font-size: 3.1vmin;
+    letter-spacing: 0.15vmin;
+    margin-bottom: 2vmin;
+    margin-top: 2.5vmin;
+}
+
+.quality-commitment-section .item p {
+    color: var(--text-secondary);
+    margin-bottom: 0vmin !important;
+    font-size: 2.65vmin;
+    letter-spacing: 0.15vmin;
+    font-weight: 300;
+}
+
+.partnership-section {
+    padding: 10vmin 10vmin;
+}
+
+.partnership-section h3 {
+    color: var(--text-primary);
+    font-size: 3vmin;
+    margin-bottom: 4vmin;
+    font-weight: 300;
+    letter-spacing: 0.15vmin;
+}
+
+.partnership-section p {
+    color: var(--text-secondary);
+    font-size: 2.8vmin;
+    letter-spacing: 0.2vmin;
+    font-weight: 300;
+    margin-bottom: 0vmin !important;
+}
+
+.partnership-section .partnership-icon {
+    color: var(--text-secondary);
+    width: 100%;
+    font-weight: 200;
+    stroke-width: 0.05vmin;
+}
+
+html[lang="ar"] .partnership-section .partnership-icon {
+    height: 16vmin;
+}
+
+html[lang="en"] .partnership-section .partnership-icon {
+    height: 19vmin;
+}
+
+@media (max-width: 768px) {
+    .mission-section .item {
+        width: 100%;
+        margin-bottom: 3vmin;
+    }
+
+    .mission-section .item:last-child {
+        margin-bottom: 0vmin;
+    }
+
+    .quality-commitment-section .item {
+        width: 100%;
+        margin-bottom: 3vmin;
+    }
+
+    .quality-commitment-section .item:last-child {
+        margin-bottom: 0vmin;
+    }
+
+}

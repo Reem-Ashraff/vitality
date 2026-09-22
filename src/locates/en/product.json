@@ -1,0 +1,139 @@
+{
+    "product": "PRODUCT",
+    "title": "Probiolact (Pro-Bio-Lact)",
+    "description": "The Natural Biological Additive for Superior Growth and Immunity.",
+    "section1-title": "PRODUCT OVERVIEW",
+    "section1-head": "Probiolact: The Natural Growth Stimulant",
+    "section1-bold1": "Probiolact",
+    "section1-description1": "is a natural growth stimulant and biological feed additive designed to increase productivity, bolster immunity, and provide anti-stress protection for both animals and poultry. It is a 100% natural solution that contains no chemicals, antibiotics, or hormones.",
+    "section1-bold2": "Composition:",
+    "section1-description2": "It includes milliard strains of beneficial bacteria and yeast, specifically:",
+    "section1Items": [
+        "Saccharomyces cerevisiae",
+        "Lactobacillus",
+        "Acidophilus",
+        "Bifidus",
+        "Essential amino acids and digestive enzymes"
+    ],
+    "section2-title": "GENERAL BIOLOGICAL ADVANTAGES",
+    "advantages": [
+        {
+            "icon": "Leaf",
+            "title": "Enhanced Digestion:",
+            "description": "Increases beneficial microflora and digestive enzymes in the gut, improving the absorption of undigested proteins."
+        },
+        {
+            "icon": "ShieldPlus",
+            "title": "Growth Performance:",
+            "description": "Leads to a significant increase in growth by 15-25% over normal rates by improving transformational efficiency."
+        },
+        {
+            "icon": "Droplet",
+            "title": "Blood Health:",
+            "description": "Raises hemoglobin levels, which increases oxygen saturation and regulates acid-base balance in the blood."
+        },
+        {
+            "icon": "Virus",
+            "title": "Viral Defense:",
+            "description": "Creates a hostile inappropriate medium in the gastrointestinal tract for harmful viruses, such as the H5N1 influenza virus (Bird Flu)."
+        },
+        {
+            "icon": "ShieldAlert",
+            "title": "Fungal Toxin Treatment",
+            "description": "Effectively treats fungal toxins and prevents digestive issues like bloating and gluttony."
+        },
+        {
+            "icon": "ShieldCheck",
+            "title": "Immune Stimulation:",
+            "description": "Increases the production of antibodies (IgG) and immune bodies in the blood to reduce infections."
+        }
+    ],
+    "section3-title": "SECTOR-SPECIFIC BENEFITS",
+    "solutions": [
+        {
+            "name": "Poultry",
+            "image": "../../../assets/chicken.PNG",
+            "descriptions": [
+                {
+                    "head": "Mortality Reduction:",
+                    "description": "Proven to reduce mortality from 50% to 10% in birds challenged with VVNDV and ochratoxins."
+                },
+                {
+                    "head": "Pathogen Replacement:",
+                    "description": "Replaces harmful bacteria like Salmonella, E. coli, and Clostridia with beneficial Lactobacilli and Bifidobacteria."
+                },
+                {
+                    "head": "Egg Production:",
+                    "description": "Increases egg production (especially in the late production period) and decreases the fracture rate of eggs."
+                },
+                {
+                    "head": "Hatchability:",
+                    "description": "Improves the overall hatching rate of eggs."
+                }
+            ]
+        },
+        {
+            "name": "Livestock",
+            "image": "../../../assets/cow.PNG",
+            "descriptions": [
+                {
+                    "head": "Weight Gain:",
+                    "description": "Achieves up to 170% weight gain compared to 130% in control groups over a 6-month period."
+                },
+                {
+                    "head": "Milk Quality:",
+                    "description": "Eliminates acidity in milk and increases total milk production."
+                },
+                {
+                    "head": "Appetite Stimulation:",
+                    "description": "Acts as an appetizer that prevents impaction and normalizes PH in the digestive system."
+                }
+            ]
+        },
+        {
+            "name": "Aquaculture",
+            "image": "../../../assets/fish.PNG",
+            "descriptions": [
+                {
+                    "head": "Metabolism:",
+                    "description": "Acts on improving metabolism and increasing overall body weight."
+                },
+                {
+                    "head": "Oxygen Resistance:",
+                    "description": "Increases the number of red blood cells to help fish resist low-oxygen environments."
+                },
+                {
+                    "head": "Environmental Health:",
+                    "description": "Decreases the ammonia rate and reduces water pollution."
+                },
+                {
+                    "head": "Disease Resistance:",
+                    "description": "Protects against bacterial diseases affecting the skin, respiratory, and digestive systems."
+                }
+            ]
+        },
+        {
+            "name": "Rabbits",
+            "image": "../../../assets/rabbit.PNG",
+            "descriptions": [
+                {
+                    "head": "Stress Resistance:",
+                    "description": "Increases resistance to stress resulting from high temperatures during labor, lactation, or feeding changes."
+                },
+                {
+                    "head": "Meat Quality:",
+                    "description": "Improves the taste and tenderness of meat."
+                }
+            ]
+        }
+    ],
+    "section4-title": "TECHNICAL SPECIFICATION",
+    "standard-dosage": "Standard Dosage:",
+    "dosage": "1 kg / ton of feed",
+    "treatment":"Treatment Period:",
+    "treatment-description":"Doses may be doubled (up to 10 times the standard dose) during treatment periods with no adverse effects.",
+    "safety":"Safety Guarantee:",
+    "safety-description":"Probiolact is entirely safe with no side effects for animals or humans, even when redoubling the dose.",
+    "storage":"Storage:",
+    "storage-description":"Store in a cool, dry place away from heat and direct sunshine."
+}
