@@ -39,7 +39,7 @@ const Solutions = () => {
             {solutions.map((solution,index)=>{
                 return(
                     <>
-                    <section className="solutions-section" key={index}>
+                    <section key={index} className="solutions-section">
                         <div className="col-12 col-lg-7">
                         <h3>{solution.name}</h3>
                         <h5>{solution.head}</h5>
@@ -47,7 +47,7 @@ const Solutions = () => {
                         <p className="vitality-solution">{t("solutions.vitality-solution")}</p>
                         {solution.descriptions.map((description,index)=>{
                             return(
-                                <p><span>{description.head}</span> {description.description}</p>
+                                <p key={index}><span>{description.head}</span> {description.description}</p>
                             )
                         })}
                         </div>

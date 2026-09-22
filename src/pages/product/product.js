@@ -94,7 +94,7 @@ const Product = () => {
                                 <div className="sector-description">
                                 {solution.descriptions.map((description,index)=>{
                                     return(
-                                        <p><span>{description.head}</span> {description.description}</p>
+                                        <p key={index}><span>{description.head}</span> {description.description}</p>
                                     )
                                 })}
                                 </div>
