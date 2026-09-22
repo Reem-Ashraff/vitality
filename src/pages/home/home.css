@@ -94,6 +94,10 @@ html[lang="ar"] .hero-content .main-content h1 {
     padding: 1vmin 2vmin;
     font-weight: 300;
     letter-spacing: 0.15vmin;
+    transition: 0.3s;
+}
+.home-about-section button:hover{
+    background-color: transparent;
 }
 
 .home-main hr {
@@ -241,6 +245,10 @@ html[lang="en"] .home-product-section .benefit .benefit-icon {
     font-weight: 300;
     letter-spacing: 0.15vmin;
     margin-top: 3vmin;
+    transition: 0.3s;
+}
+.home-product-section button:hover{
+    background-color: transparent;
 }
 
 .why-section {
@@ -429,6 +437,10 @@ html[lang="en"] .why-section .why-item .item-icon {
     padding: 1vmin 2vmin;
     font-weight: 300;
     letter-spacing: 0.15vmin;
+    transition: 0.3s;
+}
+.cta-section .cta-content button:hover{
+    background-color: transparent;
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {

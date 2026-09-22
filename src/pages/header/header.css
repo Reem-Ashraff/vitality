@@ -35,6 +35,12 @@ header ul li {
 header .link {
     color: var(--text-primary);
     font-weight: 300;
+    transition: 0.3s;
+}
+
+header .link:hover {
+    color: var(--secondary-color);
+    font-weight: 300;
 }
 
 html[lang="ar"] .link {
