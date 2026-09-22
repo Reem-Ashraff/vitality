@@ -20,22 +20,6 @@ const Header = () => {
     return (
         <>
         <header className="d-flex align-items-center justify-content-between">
-            {/* <div className="col-4 col-md-2 d-flex align-items-center head">
-                <div className="col-3 col-md-3"><img src={Logo} className="w-100 h-auto" alt="logo"/></div>
-                <h2 className="mb-0">{t("header.vitality")}</h2>
-            </div>
-            <ul className="mb-0 p-0 d-flex">
-                    <NavLink to="/home" className="text-decoration-none link" activeClassName="active"><li>{t("header.home")}</li></NavLink>
-                    <NavLink to="/about" className="text-decoration-none link" activeClassName="active"><li>{t("header.about")}</li></NavLink>
-                    <NavLink to="/product" className="text-decoration-none link" activeClassName="active"><li>{t("header.products")}</li></NavLink>
-                    <NavLink to="/solutions" className="text-decoration-none link" activeClassName="active"><li>{t("header.solutions")}</li></NavLink>
-                    <NavLink to="/quality" className="text-decoration-none link" activeClassName="active"><li>{t("header.quality")}</li></NavLink>
-                    <NavLink to="/contact" className="text-decoration-none link" activeClassName="active"><li>{t("header.contact")}</li></NavLink>
-            </ul>
-            <select value={i18n.language} onChange={(e) => changeLanguage(e)}>
-                    <option value="en">English</option>
-                    <option value="ar">العربية</option>
-            </select> */}
             <nav className="navbar navbar-expand-lg d-flex align-items-center justify-content-between m-0 p-0">
                 <div className="col-4 col-md-2 col-lg-3 d-flex align-items-center head">
                     <div className="col-3 col-md-4 col-lg-2"><img src={Logo} className="w-100 h-auto" alt="logo"/></div>
