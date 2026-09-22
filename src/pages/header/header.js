@@ -8,6 +8,20 @@ const Header = () => {
 
     const { t,i18n } = useTranslation();
 
+    const closeMenu = () => {
+    const navbar = document.getElementById("navbarNav");
+
+    if (navbar && navbar.classList.contains("show")) {
+        navbar.classList.remove("show");
+    }
+
+    const toggler = document.querySelector(".navbar-toggler");
+
+    if (toggler) {
+        toggler.setAttribute("aria-expanded", "false");
+    }
+    };
+
     const changeLanguage = (e) => {
         const lang = e.target.value;
         i18n.changeLanguage(lang);
@@ -15,6 +29,7 @@ const Header = () => {
         document.documentElement.dir =
             lang === "ar" ? "rtl" : "ltr";
         document.documentElement.lang = lang;
+        closeMenu();
     };
 
     return (
@@ -30,12 +45,12 @@ const Header = () => {
                 </button>
                 <div className="collapse navbar-collapse d-lg-flex align-items-lg-center justify-content-lg-between" id="navbarNav">
                     <ul className="navbar-nav">
-                        <NavLink to="/home" className="text-decoration-none link" activeClassName="active"><li>{t("header.home")}</li></NavLink>
-                        <NavLink to="/about" className="text-decoration-none link" activeClassName="active"><li>{t("header.about")}</li></NavLink>
-                        <NavLink to="/product" className="text-decoration-none link" activeClassName="active"><li>{t("header.products")}</li></NavLink>
-                        <NavLink to="/solutions" className="text-decoration-none link" activeClassName="active"><li>{t("header.solutions")}</li></NavLink>
-                        <NavLink to="/quality" className="text-decoration-none link" activeClassName="active"><li>{t("header.quality")}</li></NavLink>
-                        <NavLink to="/contact" className="text-decoration-none link" activeClassName="active"><li>{t("header.contact")}</li></NavLink>
+                        <NavLink to="/home" className="text-decoration-none link" activeClassName="active" onClick={closeMenu}><li>{t("header.home")}</li></NavLink>
+                        <NavLink to="/about" className="text-decoration-none link" activeClassName="active" onClick={closeMenu}><li>{t("header.about")}</li></NavLink>
+                        <NavLink to="/product" className="text-decoration-none link" activeClassName="active" onClick={closeMenu}><li>{t("header.products")}</li></NavLink>
+                        <NavLink to="/solutions" className="text-decoration-none link" activeClassName="active" onClick={closeMenu}><li>{t("header.solutions")}</li></NavLink>
+                        <NavLink to="/quality" className="text-decoration-none link" activeClassName="active" onClick={closeMenu}><li>{t("header.quality")}</li></NavLink>
+                        <NavLink to="/contact" className="text-decoration-none link" activeClassName="active" onClick={closeMenu}><li>{t("header.contact")}</li></NavLink>
                     </ul>
                     <select value={i18n.language} onChange={(e) => changeLanguage(e)}>
                         <option value="en">English</option>
