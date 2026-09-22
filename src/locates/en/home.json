@@ -19,7 +19,7 @@
     },
     {
       "name": "Aquaculture",
-      "image": "../../../assets/fish.PNG",
+      "image": "../../../assets/fish.png",
       "description":"Natural microbial solutions designed to support health and sustainable aquaculture production."
     },
     {
@@ -29,7 +29,7 @@
     },
     {
       "name": "Rabbits",
-      "image": "../../../assets/rabbit.PNG",
+      "image": "../../../assets/rabbit.png",
       "description":"Probiotic solutions supporting animal health and efficient production."
     }
   ],

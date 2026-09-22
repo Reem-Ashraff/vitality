@@ -92,7 +92,7 @@
         },
         {
             "name": "الاستزراع السمكي",
-            "image": "../../../assets/fish.PNG",
+            "image": "../../../assets/fish.png",
             "descriptions": [
                 {
                     "head": "تحسين عملية الأيض:",
@@ -114,7 +114,7 @@
         },
         {
             "name": "الأرانب",
-            "image": "../../../assets/rabbit.PNG",
+            "image": "../../../assets/rabbit.png",
             "descriptions": [
                 {
                     "head": "مقاومة الإجهاد:",

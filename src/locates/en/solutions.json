@@ -53,7 +53,7 @@
       "name": "AQUACULTURE SOLUTIONS",
       "head": "Water Quality & Metabolism",
       "challenge": "High ammonia levels and low oxygen resistance in fish farming.  ",
-      "image": "../../../assets/fish.PNG",
+      "image": "../../../assets/fish.png",
       "descriptions": [
         {
           "head": "Environmental Management:",
@@ -77,7 +77,7 @@
       "name": "RABBIT SOLUTIONS",
       "head": "Stress & Productivity Management",
       "challenge": "High sensitivity to heat and labor-related stress.",
-      "image": "../../../assets/rabbit.PNG",
+      "image": "../../../assets/rabbit.png",
       "descriptions": [
         {
           "head": "Anti-Stress Protection:",
