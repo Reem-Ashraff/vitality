@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+Vitality — Website Design & Development 🌿
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive corporate website designed and developed for Vitality, an Animal Health & Nutrition company specializing in probiotic feed additives.
 
-## Available Scripts
+🌐 Live Website
 
-In the project directory, you can run:
+Visit the Live Website: www.vitality-eg.com
 
-### `npm start`
+📌 About the Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Vitality is a corporate website designed to present the company’s products, solutions, quality standards, and expertise in a clear and professional way.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project focuses on creating a clean and modern digital experience that reflects the company’s identity while maintaining usability and consistency across different screen sizes.
 
-### `npm test`
+✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Responsive design for desktop, tablet, and mobile devices
+* Modern and professional UI
+* Clear product and solutions presentation
+* Structured corporate content
+* Responsive navigation
+* Product and sector-specific information
+* Contact and company information sections
+* Consistent visual identity across all pages
 
-### `npm run build`
+🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* React.js
+* Bootstrap
+* JavaScript
+* CSS3
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🎨 Design & Development
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+My work on this project included:
 
-### `npm run eject`
+* UI/UX Design
+* Responsive Web Design
+* Website Structure & Layout
+* Front-End Development
+* Desktop & Mobile Implementation
+* Component-based development using React.js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📄 Pages
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Home
+* About
+* Product
+* Solutions
+* Quality
+* Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📱 Responsive Design
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The website was developed to provide a consistent and user-friendly experience across:
 
-## Learn More
+* Desktop
+* Laptop
+* Tablet
+* Mobile
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🚀 Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The website is deployed and hosted on Vercel.
 
-### Code Splitting
+⸻
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Client Project
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Designed and developed as a client project for Vitality.
